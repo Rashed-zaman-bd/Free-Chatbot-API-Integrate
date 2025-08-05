@@ -57,7 +57,7 @@ const sendMessage = async () => {
     const res = await fetch('https://openrouter.ai/api/v1/chat/completions', {
       method: 'POST',
       headers: {
-        Authorization: 'Bearer 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', // Replace with your key
+        Authorization: 'Bearer <your api key>', // Replace with your key
         'Content-Type': 'application/json',
         'HTTP-Referer': 'http://localhost:5173',
         'X-Title': 'Vue Chatbot'
